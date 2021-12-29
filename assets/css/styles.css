@@ -1,0 +1,32 @@
+
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+/* Happy Birthday Dad Button */
+#activate-div {
+    display: none;
+}
+
+.my-div {
+    background-color: #FFF;
+}
+
+#activate-div:checked~label .my-div {
+    display: flex;
+    background-image: url(/assets/images/birthday-background.png);
+    background-repeat: no-repeat no-repeat;
+    background-position: center center;
+    background-size: contain;
+    background-attachment: fixed;
+    background-color: black;
+}
+.my-div {
+    height: 100%;
+    background-color: black;
+}
+
