@@ -1,18 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Happy Birthday Dad</title>
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <style>
+        * {
+            margin: 0;
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        /* Happy Birthday Dad Button */
+        #activate-div {
+            display: none;
+        }
+
+        .my-div {
+            background-color: #FFF;
+        }
+
+        #activate-div:checked~label .my-div {
+            display: flex;
+            background-image: url(/assets/images/birthday-background.png);
+            background-repeat: no-repeat no-repeat;
+            background-position: center center;
+            background-size: contain;
+            background-attachment: fixed;
+            background-color: black;
+        }
+
+        .my-div {
+            height: 100%;
+            background-color: black;
+        }
+    </style>
 </head>
+
 <body>
     <input type="checkbox" id="activate-div">
     <label for="activate-div">
-      <div class="my-div">
-      </div>
+        <div class="my-div">
+        </div>
     </label>
-    
+
 </body>
+
 </html>
