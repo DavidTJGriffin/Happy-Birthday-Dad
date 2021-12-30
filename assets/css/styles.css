@@ -38,7 +38,7 @@ body nav a {
 /* Birthday Card */
 .my-div {
     display: flex;
-    background-image: url(/assets/images/birthday-background.png);
+    background-image: url("../images/birthday-background.png");
     background-repeat: no-repeat no-repeat;
     background-position: center center;
     background-size:contain;
